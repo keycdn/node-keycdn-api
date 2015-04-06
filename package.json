@@ -21,6 +21,9 @@
   "bugs": {
     "url": "https://github.com/keycdn/node-keycdn-api/issues"
   },
+  "dependencies": {
+    "request": "~2.55.0"
+  },
   "devDependencies": {
     "tape": "~2.3.0",
     "async": "~0.2.9",
