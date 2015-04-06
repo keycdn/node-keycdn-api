@@ -1,0 +1,29 @@
+{
+  "name": "keycdn",
+  "version": "0.1.0",
+  "description": "KeyCDN API for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/*_test.js",
+    "int": "tape ./test/*_int.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keycdn/node-keycdn-api.git"
+  },
+  "keywords": [
+    "cdn",
+    "keycdn",
+    "content delivery network"
+  ],
+  "author": "KeyCDN <support@keycdn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keycdn/node-keycdn-api/issues"
+  },
+  "devDependencies": {
+    "tape": "~2.3.0",
+    "async": "~0.2.9",
+    "http-debug": "~0.1.1"
+  }
+}
