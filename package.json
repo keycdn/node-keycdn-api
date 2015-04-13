@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "tape": "~2.3.0",
-    "async": "~0.2.9",
+    "async": "~0.2.9"
   }
 }
