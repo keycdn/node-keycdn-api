@@ -1,7 +1,7 @@
 {
   "name": "keycdn",
-  "version": "0.1.1",
-  "description": "KeyCDN API for Node.js",
+  "version": "0.1.2",
+  "description": "Node.js package for the KeyCDN API",
   "main": "index.js",
   "scripts": {
     "test": "tape ./test/*_test.js",
@@ -16,6 +16,7 @@
     "keycdn",
     "content delivery network"
   ],
+  "homepage": "https://www.keycdn.com",
   "author": "KeyCDN <support@keycdn.com>",
   "license": "MIT",
   "bugs": {

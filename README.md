@@ -1,6 +1,6 @@
 # node-keycdn-api
 
-KeyCDN API for Node.js
+Node.js package for the KeyCDN API
 
 ## Install
 
@@ -107,3 +107,6 @@ keycdn.del('zones/purgeurl/' + zoneId + '.json', purgeurl , function(err, res) {
 });
 
 ```
+
+
+For more details visit https://www.keycdn.com

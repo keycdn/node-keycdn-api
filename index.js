@@ -12,7 +12,7 @@ function KeyCDN(apiKey) {
         throw new Error('api key missing or not a string');
     }
 
-    this.apiServer = 'https://dev.keycdn.com/';
+    this.apiServer = 'https://www.keycdn.com/';
     this.apiKey     = apiKey;
 
     headers = {
