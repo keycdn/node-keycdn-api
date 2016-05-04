@@ -43,7 +43,7 @@ KeyCDN.prototype._call = function(url, method, data, callback) {
 		if (!error && !!data.status && data.status !== 'success') {
 			error = new Error(data.description || data.error_message);
 		}
-		callback(error, data || {});
+		callback(error, data || {}, response);
 	}).auth(this.apiKey, '');
 };
 
