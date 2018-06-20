@@ -23,7 +23,7 @@
     "url": "https://github.com/keycdn/node-keycdn-api/issues"
   },
   "dependencies": {
-    "request": "~2.55.0"
+    "request": "2.x.x"
   },
   "devDependencies": {
     "tape": "~2.3.0",
