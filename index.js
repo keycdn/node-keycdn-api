@@ -39,12 +39,16 @@ KeyCDN.prototype._call = function(url, method, data, callback) {
         json: true,
         body: body,
         qs: qs
-	}, function(error, response, data) {
-		if (!error && !!data.status && data.status !== 'success') {
-			error = new Error(data.description || data.error_message);
-		}
-		callback(error, data || {});
-	}).auth(this.apiKey, '');
+    }, function (error, response, data) {
+        if (!data && response.statusCode >= 400) {
+            error = new Error("Invalid Response: " + response.statusCode, response.statusMessage);
+        } else if (!error && !!data.status && data.status !== 'success') {
+            error = new Error(data.description || data.error_message);
+        } else {
+            data.remaining = response.headers["x-rate-limit-remaining"];
+        }
+        callback(error, data || {});
+    }).auth(this.apiKey, '');
 };
 
 KeyCDN.prototype.get = function get(url, data, callback) {
