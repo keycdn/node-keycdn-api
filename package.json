@@ -1,6 +1,6 @@
 {
   "name": "keycdn",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Node.js package for the KeyCDN API",
   "main": "index.js",
   "scripts": {
