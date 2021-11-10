@@ -17,7 +17,7 @@
     "content delivery network"
   ],
   "homepage": "https://www.keycdn.com",
-  "author": "KeyCDN <support@keycdn.com>",
+  "author": "KeyCDN",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/keycdn/node-keycdn-api/issues"
