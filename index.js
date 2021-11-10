@@ -5,7 +5,7 @@ var querystring = require('querystring');
  * KeyCDN API Client for NodeJS
  * @constructor
  * @param {string}    apiKey          Your account's KeyCDN API Key
- * @author KeyCDN <support@keycdn.com> (www.keycdn.com)
+ * @author KeyCDN
  */
 function KeyCDN(apiKey) {
     if (typeof apiKey !== 'string') {
